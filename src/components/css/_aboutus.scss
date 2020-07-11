@@ -1,0 +1,341 @@
+@import './slideshow';
+
+
+#about{
+    position: relative;
+    display: inline-block;
+    background-image: url('../img/banner/burger_bg.png');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 100px;
+
+    @media(max-width: $mobile-size){
+        padding-bottom: 0;
+    }
+
+
+}
+
+.about-img1{
+    position: absolute;
+    display: block;
+    background-image: url('../img/about/1.png');
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    width: 30%;
+    top: 20%;
+    left:13%;
+
+    @media (max-width:1300px) {
+        left: 5%;
+        width: 35%;
+        height: 70%;
+    }
+
+    @media (max-width:$tab-size){
+        top: 20%;
+        left: 5%;
+        height: 50%;
+        width: 30%;
+    }
+
+    @media (max-width:$mobile-size){
+        position: relative;
+        width: 70%;
+        height: 80vh;
+        margin: 0 10%;
+    }
+    
+}
+
+.about-img2{
+    z-index: 7;
+    background-image: url('../img/about/2.png');
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    bottom: -7%;
+    right: -10%;
+
+    
+    @media (max-width:1200px) {
+        width: 50%;
+        height: 60%;
+    }
+
+    
+    @media (max-width: $tab-size){
+        height: 35vh;
+        width: 180px;
+        bottom: -7%;
+        right: -5%;
+    }
+
+    @media (max-width:$mobile-size){
+        width: 60%;
+        height: 60%;
+    }
+}
+.about-text-colom{
+    top: -100px;
+    padding-top: 100px;
+    text-align: left;
+    width: 50%;
+    float: right;
+    height: 700px;
+        div{
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.555);
+            padding-right: 30%;
+            line-height: 30px;
+            font-weight: 350;
+
+            @media (max-width:$tab-size){
+                padding-right: 10%;
+            }
+        h1{
+            font-size: 52px;
+            line-height: 60px;
+            font-weight: 700;
+            color: rgb(10, 10, 10);
+            letter-spacing: 5px;
+
+            
+             @media (max-width:1200px) { 
+                font-size: 40px;
+                line-height: 40px;
+        }
+
+            @media (max-width:$tab-size) {
+                font-size: 40px;
+                line-height: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+                height: auto;
+            }
+        }
+        img{
+            margin-top: 20px;
+            width: 70px;
+        }
+        .burger-menu-heading1{
+            display: inline-block;
+            text-align: left;
+            margin: 0;
+            margin-top: 35px;
+            line-height: 0;
+        }
+
+    }
+    @media (max-width:$tab-size) {
+        width: 50%;
+    }
+    @media (max-width:$mobile-size){
+        position: relative;
+        padding-right: 0;
+        height: auto;
+        width:70%;
+        display: block;
+        margin: 50px 10%;
+    }
+}
+
+.video{
+    min-height: 400px;
+    position: relative;
+    width:100%;
+    height: 100%;
+    background-image: url('../img/video/video.png');
+    background-size: cover;
+    background-position: center;
+
+    div{
+        width:100%;
+        height: 100%;
+        min-height:400px ;
+        background-color: rgba(119, 119, 224, 0.17);
+        padding: 10% 0;
+        text-align: center;
+        color: white;
+        h1{
+            font-size: 5rem;
+            font-weight: 900;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 0;
+            line-height: 65px;
+        }
+        h3{
+            line-height: 20px;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+        .play{
+            cursor: pointer;
+            font-size: 120px;  
+            color: rgba(230, 106, 62, 1);
+        }
+    }
+}
+
+.video-player{
+    width:100%;
+    padding: 5% 15%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.329);
+    min-height: 400px;
+}
+
+
+.testimonial{
+    width: 100%;
+    padding: 100px 0 30px 0;
+    text-align: center;
+
+    h1{
+        font-size: 3.5rem;
+        line-height: 0;
+
+        
+        @media(max-width:$tab-size){
+            font-size: 2.8rem;
+        }
+        
+        @media(max-width:$mobile-size){
+            font-size: 2rem;
+        }
+    }
+
+    .testimonial-slider{
+        width:70%;
+        margin: 30px 15%;
+        @media(max-width:$tab-size){
+            width:90%;
+            margin : 30px 7%;
+        }
+        
+        @media(max-width:$mobile-size){
+            width: 100%;
+            margin : 20px 0;
+        }
+    }
+    .slides{
+        width: 60%;
+        height:auto;
+        padding: 20px 20%;
+        position: relative;
+        @media (max-width:$tab-size){
+            width: 80%;
+            padding: 20px 10%;
+        }
+
+    .slide-testimonial{
+        display: none;
+        text-align: center;
+        width: 100%;
+        span{
+            display: inline-block;
+            font-size: 1.7rem;
+            color: grey;
+            margin-bottom: 20px;
+        }
+    }
+    .slider{
+        position: absolute;
+        font-size: 3rem;
+        color: rgba(145, 145, 145, 0.2);
+        transition: 0.5s;
+
+        &:hover{
+            transition: 0.5s;
+            color: rgba(145,145,145,0.733);
+        }
+    }
+    .left{
+        top: 20%;
+        right:1%;
+        transform: translate(-50%,-50%);
+    }
+    .right{
+        top: 20%;
+        left:1%;
+        transform: translate(50%,-50%);
+    }
+}
+}
+
+
+.insta{
+    position: relative;
+    margin: 50px 5%;
+    width: 90%;
+    text-align: center;
+    
+    .colom{
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+        width: 17%;
+        padding: 1%;
+        margin:10px 2.5% ;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+
+        @media(max-width:$tab-size){
+            width: 30%;
+            padding: 3%;
+        }
+
+        @media(max-width:$mobile-size){
+            width: 50%;
+            padding: 3%;
+        }
+
+        .insta-overlay{
+            cursor:pointer;
+            visibility: hidden;
+            border-radius: 50%;
+            border: rgba(255, 255, 255, 0.438) dashed 1px;
+            color: rgba(255, 255, 255, 0.438);
+            font-size: 2rem;
+            text-align: center;
+            width: 99%;
+            padding:  38%  0;
+            background-color: transparentize($color: #000000, $amount: 0.6);
+        }
+        &:hover{
+            .insta-overlay{
+                transition: 3s;
+                visibility: visible;
+                animation: overlay 0.2s;
+                
+            }
+            @keyframes overlay {
+                0% {transform: scale(0);}
+                100%{transform: scale(1);}
+            }
+        }
+    }
+
+}
+.insta1{
+    background-image: url('../img/instragram/1.png');
+}
+
+.insta2{
+    background-image: url('../img/instragram/2.png');
+}
+
+.insta3{
+    background-image: url('../img/instragram/3.png');
+}
+
+.insta4{
+    background-image: url('../img/instragram/4.png');
+}

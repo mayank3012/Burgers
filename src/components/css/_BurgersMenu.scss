@@ -1,0 +1,235 @@
+@import './nav';
+@import './slideshow';
+
+.burger-menu{
+    display:block;
+    padding: 100px 0 10px 0 ;
+    background-image: url('../img/banner/burger_bg.png');
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;    
+}
+
+.burger-menu-heading{
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family:forte;
+    color: $navcolor;
+}
+
+.burger-menu-subheading{
+    display:block;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    overflow: hidden;
+    @media (max-width:$mobile-size){
+        font-size: 2rem;
+    }
+}
+.menu-col-odd{
+    float: right;
+    
+}
+
+.menu-col{
+    margin: 10px 5% ;
+    float: left;
+    width:40%;
+    @media (max-width:$mobile-size){
+        width: 100%;
+    }
+
+}
+
+
+.menu-div-photo{
+    float: left;
+    width:35%;
+    text-align: left;
+    padding-top: 20px;
+
+    @media (max-width:$tab-size){
+        width: auto;
+    }
+    @media (max-width:$mobile-size){
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.menu-div-photo img{
+    width: 90%;
+    @media (max-width:$mobile-size){
+        width: auto;
+    }
+}
+
+.menu-div-text{
+    float: right;
+    height: 200px;
+    width:60%;
+    text-align: left;
+    @media (max-width:$tab-size){
+        width: 100%;
+    }
+
+    @media (max-width:$mobile-size){
+        text-align: center;
+    }
+}
+
+.menu-div-text span{
+    color: rgba($color: #000000, $alpha: 0.5);
+    
+}
+
+.menu-div-text h2{
+    color: orangered;
+    font-size: 28px;
+    line-height: 10px;
+}
+
+
+
+.more-btn{
+    display: inline-block;
+    width: 70%;
+    margin: 7% 15% 50px 15% ;
+    text-align: center;
+    border: 2px solid orangered;
+    padding: 15px 0;
+    border-radius: 4%/50%;
+    font-size: 1.5rem;
+    transition: 1s;
+    color: rgba(253, 55, 6, 0.884);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background-color: orangered;
+        color: white;
+        transition: 1s;
+        
+    }
+
+    @media (max-width:$tab-size){
+        width: 80%;
+        margin :50px 10%;
+        border-radius: 5%/50%;
+    }
+
+    @media (max-width:$mobile-size){
+        width: 90%;
+        margin :50px 5%;
+        padding: 10px 0;
+        border-radius: 7%/50%;
+        font-size: 1.3rem;
+    }
+}
+
+.menu-buy-now{
+    width: 100%;
+    
+            .pics{
+                position: relative;
+            display: inline-flex;
+            width: 50%;
+            min-height: 350px;
+            overflow: hidden;
+            @media (max-width: $tab-size){
+                display:flex;
+                width: 100%;
+                margin: 0em;
+            }
+            @media (max-width: $mobile-size){
+                margin-bottom: 1.5em;
+            }
+
+            img{
+                min-height: 350px;
+                position: relative;
+                overflow: hidden;
+                transition: 1s;
+                width: 100%;
+            }
+
+            .info{
+                position: absolute;
+                background-color: transparentize($color: #000000, $amount: 0.7);
+                width: 100%;
+                min-height: 450px;
+    overflow: hidden;
+
+                .info-data{
+                    padding: 22% 10% 150px 10%;
+                    h2{
+                        color: rgb(248, 71, 17);
+                        font-weight: bolder;
+                        font-size: 2rem;
+                        line-height: 5px;
+                    }
+                    .head{
+                        line-height: 40px;
+                        display: block;
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: bolder;
+                    }
+                    .about-dish{
+                        width: auto;
+                        color: rgba(255, 255, 255, 0.8)
+                    }
+                    a{
+                        margin-left: 0;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        cursor: pointer;
+                        border-radius: 15%/50%;
+                        border: 1px $navcolor solid;
+                        background-color: $navcolor;
+                        color: white;
+                        transition: 0.5s;
+                        font-size: 16px;
+                        padding:3px 15px;
+                        font-weight: 600;
+                        &:hover{
+                            transition: 0.5s;
+                            background-color: transparent;
+                            color: $navcolor;
+                        }
+                    }
+                @media (max-width:$tab-size){
+                    
+                }
+                @media (max-width:$mobile-size){
+                    .about-dish{
+                        width: 100%;
+                    }
+                }
+                @media (max-width:550px){
+                    min-height: 300px;
+                    padding-top: 12%;
+                }
+                
+                @media (max-width:300px){
+                    padding-top: 0;
+                }
+            }
+
+        }
+            &:hover{
+                img{ 
+                transition: 1s ease;
+                transform: scale(1.2);
+            }
+        }
+        }
+}
+       

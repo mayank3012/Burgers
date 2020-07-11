@@ -1,0 +1,123 @@
+@import './nav';
+
+$mobile-size:770px;
+$tab-size:1000px;
+
+@mixin mobile-size {
+    
+    @media(max-width: $tab-size){
+        height:600px;
+    }
+    @media(max-width: $mobile-size){
+        height:360px;
+    }
+    
+}
+
+@mixin fontsize() {
+    
+}
+
+.mySlides{
+    display: none;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+
+    @include mobile-size();
+}
+
+.img1{
+    background-image: url('../img/banner/banner.png');
+}
+
+.img2{
+    background-image: url('../img/banner/banner2.png');
+}
+
+.slideshow{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    @include mobile-size();
+}
+
+.slides{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    @include mobile-size();
+}
+.info{
+    position: relative;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    height: 800px;
+    @include mobile-size();
+}
+
+.bigdeal{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-40%);
+    background-image: url(../img/shape/1.png);
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: 1000;
+    padding: 16px ;
+    width:180px;
+    margin: auto;
+}
+
+.burgerbachelor{
+    position: absolute;
+    top:45%;
+    left:50%;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    transform: translate(-50%,-40%);
+    font-size: 6rem;
+
+    @media (max-width:$tab-size) {
+        top:45%;
+        font-size: 3.5rem;
+        line-height: 55px;
+    }
+    @media (max-width:$mobile-size) {
+        top:50%;
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+}
+.first{
+    font-size: 15rem;
+    @media (max-width:$mobile-size) {
+        font-size: 3.5rem;
+    }
+}
+
+.maxican{
+    position: absolute;
+    top:60.5%;
+    left:50%;
+    text-align: center;
+    color: $navcolor ;
+    line-height: 100px;
+    transform: translate(-50%,-40%);
+    font-size: 7.5rem;
+
+    @media (max-width:$tab-size) {
+        top:60%;
+    }
+    @media (max-width:$mobile-size) {
+        top:62%;
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+}
