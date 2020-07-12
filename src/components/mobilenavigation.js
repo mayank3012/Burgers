@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/app.css'
-import logo from './img/logo.png'
+import logo from './images/logo.png'
 
 function open(){
     document.getElementById('mobile-navigation').style.display="block";    

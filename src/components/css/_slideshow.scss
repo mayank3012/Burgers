@@ -29,11 +29,11 @@ $tab-size:1000px;
 }
 
 .img1{
-    background-image: url('../img/banner/banner.png');
+    background-image: url('../images/banner/banner-compressed.jpg');
 }
 
 .img2{
-    background-image: url('../img/banner/banner2.png');
+    background-image: url('../images/banner/banner2-compressed.jpg');
 }
 
 .slideshow{
@@ -61,7 +61,7 @@ $tab-size:1000px;
     top:30%;
     left:50%;
     transform: translate(-50%,-40%);
-    background-image: url(../img/shape/1.png);
+    background-image: url('../images/shape/1.png');
     background-size: 100%;
     background-position: center;
     display: inline-block;

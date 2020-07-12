@@ -4,7 +4,7 @@
 .burger-menu{
     display:block;
     padding: 100px 0 10px 0 ;
-    background-image: url('../img/banner/burger_bg.png');
+    background-image: url('../images/banner/burger_bg.png');
     background-size:cover;
     background-position: center;
     width: 100%;
@@ -202,7 +202,7 @@
                         &:hover{
                             transition: 0.5s;
                             background-color: transparent;
-                            color: $navcolor;
+                            color: $nav-hovercolor;
                         }
                     }
                 @media (max-width:$tab-size){

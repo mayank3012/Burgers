@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import './css/app.css';
-import signature from './img/jessica-signature.png'
-import img_user1 from './img/testmonial/1.png'
-import img_user2 from './img/testmonial/2.png'
-import img_user3 from './img/testmonial/3.png'
+import signature from './images/jessica-signature.png'
+import img_user1 from './images/testmonial/1.png'
+import img_user2 from './images/testmonial/2.png'
+import img_user3 from './images/testmonial/3.png'
 
 
 var myIndex = 0;

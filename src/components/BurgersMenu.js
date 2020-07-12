@@ -1,15 +1,15 @@
 import React from 'react';
 import './css/app.css';
-import img1 from './img/burger/1.png';
-import img2 from './img/burger/2.png';
-import img3 from './img/burger/3.png';
-import img4 from './img/burger/4.png';
-import img5 from './img/burger/5.png';
-import img6 from './img/burger/6.png';
-import img7 from './img/burger/7.png';
-import img8 from './img/burger/8.png';
-import img9 from './img/burgers/1.png';
-import img10 from './img/burgers/2.png';
+import img1 from './images/burger/1.png';
+import img2 from './images/burger/2.png';
+import img3 from './images/burger/3.png';
+import img4 from './images/burger/4.png';
+import img5 from './images/burger/5.png';
+import img6 from './images/burger/6.png';
+import img7 from './images/burger/7.png';
+import img8 from './images/burger/8.png';
+import img9 from './images/burgers/1-compressed (2).jpg';
+import img10 from './images/burgers/2-compressed (2).jpg';
 
 
 

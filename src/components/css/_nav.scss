@@ -1,4 +1,5 @@
-$navcolor : hsl(39, 100%, 68%);
+$nav-hovercolor : hsl(39, 100%, 68%);
+$navcolor : hsl(37, 60%, 36%);
 $mobilehide : 'max-width:1200px';
 $mobilenavigation : 'max-width:1000px';
 
@@ -20,7 +21,7 @@ $mobilenavigation : 'max-width:1000px';
     color:white;
     font-weight: bolder;
         &:hover{
-            color: $navcolor;
+            color: $nav-hovercolor;
         }
 }
 
@@ -44,7 +45,7 @@ $mobilenavigation : 'max-width:1000px';
         padding: 2% 2%;
       }
     &:hover{
-        border-bottom: 2px $navcolor solid;
+        border-bottom: 2px $nav-hovercolor solid;
         padding: 13px 30px;
     }
 }
@@ -78,7 +79,7 @@ $mobilenavigation : 'max-width:1000px';
     font-size: 18px;
     top:50%;
     padding: 15px 15px;
-    border: 1px solid $navcolor;
+    border: 1px solid $nav-hovercolor;
     border-radius:  30%/100%;
     transform: translate(0,-50%);
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/app.css'
-import logo from './img/logo.png'
+import logo from './images/logo.png'
 
 class nav extends Component {
     constructor(props) {

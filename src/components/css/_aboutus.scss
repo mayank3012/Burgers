@@ -4,7 +4,7 @@
 #about{
     position: relative;
     display: inline-block;
-    background-image: url('../img/banner/burger_bg.png');
+    background-image: url('../images/banner/burger_bg.png');
     background-size: cover;
     height: auto;
     width: 100%;
@@ -21,7 +21,7 @@
 .about-img1{
     position: absolute;
     display: block;
-    background-image: url('../img/about/1.png');
+    background-image: url('../images/about/1-compressed.jpg');
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -53,7 +53,7 @@
 
 .about-img2{
     z-index: 7;
-    background-image: url('../img/about/2.png');
+    background-image: url('../images/about/2-compressed.jpg');
     background-size: cover;
     background-position: center;
     height: 50%;
@@ -150,7 +150,7 @@
     position: relative;
     width:100%;
     height: 100%;
-    background-image: url('../img/video/video.png');
+    background-image: url('../images/video/video-compressed.jpg');
     background-size: cover;
     background-position: center;
 
@@ -158,7 +158,7 @@
         width:100%;
         height: 100%;
         min-height:400px ;
-        background-color: rgba(119, 119, 224, 0.17);
+        background-color: rgba(134, 134, 189, 0.08);
         padding: 10% 0;
         text-align: center;
         color: white;
@@ -325,17 +325,17 @@
 
 }
 .insta1{
-    background-image: url('../img/instragram/1.png');
+    background-image: url('../images/instagram/1-compressed\ \(3\).jpg');
 }
 
 .insta2{
-    background-image: url('../img/instragram/2.png');
+    background-image: url('../images/instagram/2-compressed\ \(3\).jpg');
 }
 
 .insta3{
-    background-image: url('../img/instragram/3.png');
+    background-image: url('../images/instagram/3-compressed\ \(1\).jpg');
 }
 
 .insta4{
-    background-image: url('../img/instragram/4.png');
+    background-image: url('../images/instagram/4-compressed\ \(1\).jpg');
 }

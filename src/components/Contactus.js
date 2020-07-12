@@ -48,7 +48,7 @@ class Contactus extends Component {
                 </div>
                 <div className="regards">
                     <hr/>
-                    <span>Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart-o"></i> by <span className="name">MAYANK PANDET</span></span>
+                    <span>Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart-o"></i> by <span className="name">MAYANK PANDEY</span></span>
                 </div>
             </footer>
         )
